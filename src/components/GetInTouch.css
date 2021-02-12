@@ -1,0 +1,80 @@
+.getInTouch {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(29, 29, 42), rgba(226, 193, 8, 0.5));
+}
+
+.getInTouch > h2 {
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+
+.getInTouch__info {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  height: 100vh;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.getInTouch__infoEmail {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: transparent;
+  width: fit-content;
+  height: 100vh;
+}
+
+.getInTouch__infoEmail > h6 {
+  font-size: x-large;
+  font-weight: 700;
+  font-family: cursive;
+  color: white;
+}
+
+.getInTouch__infoEmail > h6 > span {
+  font-size: 14px;
+  color: gray;
+}
+
+.getInTouch__infoEmail > hr {
+  width: 250px;
+}
+
+.getInTouch__infoEmail > button {
+  margin-top: auto;
+  margin-bottom: 50px;
+  background-color: rgb(47, 36, 36);
+  color: rgb(211, 208, 29);
+  border-radius: 999px;
+}
+.getInTouch__infoEmail > button:hover {
+  background-color: rgb(211, 208, 29);
+  color: rgb(47, 36, 36);
+}
+
+.getInTouch__infoEmail > button > .sendEmail__button {
+  margin-right: 10px;
+}
+
+.getInTouch__info > img {
+  object-fit: cover;
+  flex: 0.5;
+  max-width: 600px;
+  height: 100vh;
+}

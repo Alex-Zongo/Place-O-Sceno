@@ -1,0 +1,27 @@
+.support {
+  color: white;
+  display: flex;
+  align-items: center;
+  background-color: lightyellow;
+  padding: 5px;
+  border-radius: 999px;
+  width: fit-content;
+  margin: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+.support > a > h6,
+.support > h6 {
+  margin: 5px;
+  font-size: 18px;
+  color: black;
+}
+.support > a > .MuiAvatar-root,
+.support > .MuiAvatar-root {
+  margin: 2px;
+}
+
+.support > a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}

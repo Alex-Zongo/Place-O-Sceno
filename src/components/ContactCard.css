@@ -1,0 +1,19 @@
+.contactCard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 20px;
+  margin-right: auto;
+}
+
+.contactCard > .MuiSvgIcon-root {
+  margin-right: 10px;
+  color: white;
+}
+
+.description > h3 {
+  color: rgb(14, 17, 168);
+}
+.description > p {
+  color: #e2e1e1;
+}

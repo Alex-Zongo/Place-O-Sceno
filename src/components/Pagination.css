@@ -1,0 +1,23 @@
+.pagination {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.page {
+  background-color: rgb(129, 206, 237);
+  padding: 10px;
+  border-radius: 999px;
+  margin: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+.page:hover {
+  background-color: rgb(240, 202, 10);
+}
