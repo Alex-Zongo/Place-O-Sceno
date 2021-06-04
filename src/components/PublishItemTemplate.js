@@ -14,7 +14,7 @@ function PublishItemTemplate({ path, index, coverImage, alt, title, date }) {
           className="w-full h-full rounded-r object-cover absolute"
         />
         <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
-          <h3 className="text-white text-lg font-blog px-3 py-4 bg-yellow-400 text-white bg-opacity-70 rounded">
+          <h3 className="text-white text-lg font-blog px-3 py-4 bg-green-400 text-gray bg-opacity-90 rounded">
             {title} -
             <span className="font-bold text-xs space-x-4">
               {new Date(date).toLocaleDateString()}

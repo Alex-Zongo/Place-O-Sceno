@@ -32,7 +32,7 @@ function Navbar() {
         <div className="navbar-container">
           <div className="nav-left">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              <h6>PLACEOSCENO</h6>
+              <h6>PLACE O SCENO</h6>
               <img src={logo} alt="" />
             </Link>
           </div>

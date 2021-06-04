@@ -32,7 +32,7 @@ function Story() {
           <hr />
           <br />
           <p>
-            <strong>Place O sceno</strong> est une organisation culturelle
+            <strong>Place O scéno</strong> est une organisation culturelle
             spécialisée dans les Arts de la Scène notamment la Scénographie.
             Elle regroupe une quinzaine d’artistes béninois de compétences
             diverses; Scénographes, Designer, Costumiers, Régisseurs lumière,
