@@ -17,16 +17,24 @@
 .getInTouch__info {
   display: flex;
   flex-wrap: wrap;
-
+  flex-direction: column;
   justify-content: center;
 
   margin-left: 20px;
   margin-right: 20px;
-  margin-bottom: 50px;
-  height: 100vh;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: fit-content;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.75);
   border-radius: 20px;
   overflow: hidden;
+}
+
+.getInTouch__info > img {
+    /* margin-left: 0.5rem; */
+    object-fit: contain;
+    height: 1rem;
+    border-radius: 5px;
 }
 
 .getInTouch__infoEmail {
@@ -37,7 +45,8 @@
   padding: 20px;
   background-color: transparent;
   width: fit-content;
-  height: 100vh;
+  height: fit-content;
+  /* height: 100vh; */
 }
 
 .getInTouch__infoEmail > h6 {
